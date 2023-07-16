@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.min.css" />
+  </head>
+  <body class="body-th1">
+    <header class="header">
+      <h1 class="header__title">calc</h1>
+      <div class="header__container">
+        <p class="header__text">THEME</p>
+        <div class="select-theme-container select-theme-th1">
+          <input
+            class="button input-th1"
+            type="radio"
+            name="toggle"
+            id="one"
+            value="1"
+          />
+          <input
+            class="button input-th1"
+            type="radio"
+            name="toggle"
+            id="two"
+            value="2"
+          />
+          <input
+            class="button input-th1"
+            type="radio"
+            name="toggle"
+            id="three"
+            value="3"
+          />
+          <label for="one" class="label-one">1 </label>
+          <label for="two" class="label-two">2</label>
+          <label for="three" class="label-three">3</label>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="result-container result-container-th1"></div>
+      </section>
+      <section class="calc calc-th1">
+        <div class="calc-container">
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="7"
+          >
+            7
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="8"
+          >
+            8
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="9"
+          >
+            9
+          </button>
+          <button
+            class="del-btn-th1 del-reset-btn del-button calc-btn"
+            value="del"
+          >
+            DEL
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="4"
+          >
+            4
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="5"
+          >
+            5
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="6"
+          >
+            6
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="+"
+          >
+            +
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="1"
+          >
+            1
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="2"
+          >
+            2
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="3"
+          >
+            3
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="-"
+          >
+            -
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="."
+          >
+            .
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="0"
+          >
+            0
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="/"
+          >
+            /
+          </button>
+          <button
+            class="calc-container__btn calc-container__btn-th1 calc-btn"
+            value="*"
+          >
+            x
+          </button>
+        </div>
+        <div class="calc-last-container">
+          <button
+            class="calc-last-container__btn del-btn-th1 del-reset-btn calc-btn"
+            value="reset"
+          >
+            RESET
+          </button>
+          <button
+            class="calc-last-container__btn th1-equal-btn equal-btn calc-btn"
+            value="equal"
+          >
+            =
+          </button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.body-th3 {
+  background-color: $theme3-background-color;
+  color: $theme3-text-color;
+}
+.th3-equal-btn {
+  background: $theme3-equal-button-color;
+  box-shadow: 0px -4px 0px 0px #6cf9f1 inset;
+  color: #1a2327;
+  &:hover {
+    background-color: $theme3-equal-button-color-hover;
+  }
+}
+.del-btn-th3 {
+  background: $theme3-buttons-second-color;
+  box-shadow: 0px -4px 0px 0px #be15f4 inset;
+  font-size: 20px;
+  color: $white-color;
+  &:hover {
+    background-color: $theme3-buttons-second-color-hover;
+  }
+}
+.result-container-th3 {
+  background-color: $theme3-secondary-background-color;
+}
+.calc-th3 {
+  background-color: $theme3-secondary-background-color;
+}
+.calc-container__btn-th3 {
+  background: $theme3-buttons-color;
+  box-shadow: 0px -4px 0px 0px #881c9e inset;
+  color: $theme3-text-color;
+  &:hover {
+    background-color: $theme3-buttons-color-hover;
+  }
+}
+.select-theme-th3 {
+  background-color: $theme3-secondary-background-color;
+}
+.input-th3 {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='%2300DED0'><circle cx='8' cy='8' r='8' fill='%2300DED0'/></svg>");
+  &:hover {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='%2393FFF8'><circle cx='8' cy='8' r='8' fill='%2393FFF8'/></svg>");
+  }
+}

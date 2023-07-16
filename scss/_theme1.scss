@@ -1,0 +1,42 @@
+.th1-equal-btn {
+  background-color: $theme1-equal-button-color;
+  box-shadow: 0px -4px 0px 0px #93261a inset;
+  color: $white-color;
+  &:hover {
+    background-color: $theme1-equal-button-color-hover;
+    cursor: pointer;
+  }
+}
+.del-btn-th1 {
+  background: #647198;
+  box-shadow: 0px -4px 0px 0px #414e73 inset;
+  color: $white-color;
+  font-size: 20px;
+  &:hover {
+    background-color: $theme1-buttons-second-color-hover;
+  }
+}
+
+.result-container-th1 {
+  background-color: $theme1-result-background-color;
+}
+.calc-th1 {
+  background-color: $theme1-secondary-background-color;
+}
+.calc-container__btn-th1 {
+  color: $theme1-text-color;
+  background-color: $theme1-buttons-color;
+  box-shadow: 0px -4px 0px 0px #b3a497 inset;
+  &:hover {
+    background-color: $white-color;
+  }
+}
+.select-theme-th1 {
+  background-color: $theme1-secondary-background-color;
+}
+.input-th1 {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='%23D03F2F'><circle cx='8' cy='8' r='8' fill='%23D03F2F'/></svg>");
+  &:hover {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='%23F96B5B'><circle cx='8' cy='8' r='8' fill='%23F96B5B'/></svg>");
+  }
+}
